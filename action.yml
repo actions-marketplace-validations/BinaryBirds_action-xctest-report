@@ -1,0 +1,7 @@
+name: 'Swift Xctest Report'
+description: 'Try to run Testify run with xctests and create a report'
+runs:
+  using: "composite"
+  steps:
+    - run: action.sh
+      shell: bash
